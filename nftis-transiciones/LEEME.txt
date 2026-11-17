@@ -1,0 +1,21 @@
+PRÁCTICA: NFTIS - TRANSICIONES HTML Y CSS
+=======================================
+1. Descomprime la carpeta.
+2. Abre index.html en Chrome, Edge o Firefox.
+3. Pasa el cursor sobre los enlaces, botones, imágenes, tarjetas y mapache.
+4. En styles.css busca «transition» y «:hover» para revisar los ejemplos.
+
+CONTENIDO
+- index.html: estructura de la página.
+- styles.css: diseño adaptable + transiciones CSS.
+
+IMPORTANTE
+- No requiere JavaScript, dependencias ni servidor.
+- Las imágenes son referencias remotas de la DEMO original, por lo que para verlas necesitas conexión a Internet.
+- La versión recrea el estilo y las secciones hasta el animal con gafas; no es el código original de la plantilla comercial.
+
+EJEMPLO PRINCIPAL
+  .creator { transition: transform .35s ease; }
+  .creator:hover { transform: translateY(-9px); }
+
+Otros efectos: scale, rotate, saturate, opacity, box-shadow, border-color y color.

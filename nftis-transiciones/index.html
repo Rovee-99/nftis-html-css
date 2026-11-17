@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nftis | Práctica de transiciones CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Ejercicio de HTML + CSS: coloca el cursor sobre fotos, tarjetas y botones. -->
+
+    <header class="site-header" id="inicio">
+      <div class="container header-inner">
+        <a class="logo" href="#inicio" aria-label="Nftis inicio">
+          <span class="logo-symbol">✦</span> nftis<span class="dot">.</span>
+        </a>
+
+        <nav class="main-nav" aria-label="Navegación principal">
+          <a href="#inicio">Inicio</a>
+          <a href="#creadores">Mejores Creadores</a>
+          <a href="#explorar">Explorar</a>
+          <a href="#mapache">Acerca de</a>
+        </nav>
+
+        <a class="btn btn-small" href="#explorar">
+          Explorar NFTs <span>↗</span>
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <!-- 1. Portada -->
+      <section class="hero container">
+        <div class="hero-copy">
+          <p class="eyebrow">
+            <span class="sparkle">✦</span> BIENVENIDO A NFTIS
+          </p>
+
+          <h1>
+            Crea y vende<br />
+            <span>extraordinarios</span> NFTs fácilmente
+          </h1>
+
+          <p class="hero-description">
+            Explora un nuevo mundo de arte digital, descubre colecciones únicas
+            y encuentra tu próxima creación favorita.
+          </p>
+
+          <a class="btn" href="#explorar">
+            Comenzar a explorar <span>↗</span>
+          </a>
+
+          <div class="hero-social">
+            <span class="avatars">
+              <img
+                src="https://cms.googlycode.com/cms19/wp-content/uploads/2024/02/gl-img-01.jpg"
+                alt="Creadora de NFT"
+              />
+              <img
+                src="https://cms.googlycode.com/cms19/wp-content/uploads/2024/02/gl-img-02.jpg"
+                alt="Creador de NFT"
+              />
+              <img
+                src="https://cms.googlycode.com/cms19/wp-content/uploads/2024/02/gl-img-03.jpg"
+                alt="Artista de NFT"
+              />
+            </span>
+
+            <span>
+              <strong>10k+</strong>
+              <small>Artistas creativos</small>
+            </span>
+          </div>
+        </div>
+
+        <div class="hero-gallery" aria-label="Arte NFT destacado">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+
+          <figure class="hero-art hero-art-main">
+            <img
+              src="https://cms.googlycode.com/cms19/wp-content/uploads/2024/02/gl-img-02.jpg"
+              alt="Arte digital de personaje con gafas"
+            />
+          </figure>
+
+          <figure class="hero-art hero-art-side">
+            <img
+              src="https://cms.googlycode.com/cms19/wp-content/uploads/2024/02/gl-img-01.jpg"
+              alt="Gato rosa con sudadera"
+            />
+          </figure>
+
+          <span class="floating-star star-a">✦</span>
+          <span class="floating-star star-b">✧</span>
+        </div>
+      </section>
+
+      <!-- 2. Banner amarillo -->
+      <section class="countdown container" aria-label="Colección destacada">
+        <div class="timer-text">
+          <span>Colección limitada</span>
+          <h2>Tiempo restante</h2>
+        </div>
+
+        <div class="timer">
+          <div>
+            <b>28</b>
+            <small>Días</small>
+          </div>
+
+          <i>:</i>
+
+          <div>
+            <b>18</b>
+            <small>Horas</small>
+          </div>
+
+          <i>:</i>
+
+          <div>
+            <b>54</b>
+            <small>Minutos</small>
+          </div>
+
+          <i>:</i>
+
+          <div>
+            <b>09</b>
+            <small>Segundos</small>
+          </div>
+        </div>
+
+        <div class="timer-people">
+          <img
+            src="https://cms.googlycode.com/cms19/wp-content/uploads/2024/02/gl-img-01.jpg"
+            alt="Primer artista"
+          />
+          <img
+            src="https://cms.googlycode.com/cms19/wp-content/uploads/2024/02/gl-img-02.jpg"
+            alt="Segundo artista"
+          />
+          <img
+            src="https://cms.googlycode.com/cms19/wp-content/uploads/2024/02/gl-img-03.jpg"
+            alt="Tercer artista"
+          />
+        </div>
+      </section>
+
+      <!-- 3. Mejores creadores -->
+      <section class="section creators container" id="creadores">
+        <div class="section-heading">
+          <p class="eyebrow">NUESTROS ARTISTAS</p>
+          <h2>Mejores Creadores</h2>
+          <p>
+            Conoce a los artistas digitales más destacados y descubre sus
+            increíbles colecciones de NFTs.
+          </p>
+        </div>
+
+        <div class="creator-grid">
+          <a href="#explorar" class="creator">
+            <img
+              src="https://cms.googlycode.com/cms19/wp-content/uploads/2024/02/gl-img-01.jpg"
+              alt="Avatar Doodles"
+            />
+            <div>
+              <h3>@Doodles_4</h3>
+              <span>12 artículos</span>
+            </div>
+            <b>↗</b>
+          </a>
+
+          <a href="#explorar" class="creator">
+            <img
+              src="https://cms.googlycode.com/cms19/wp-content/uploads/2024/02/gl-img-02.jpg"
+              alt="Avatar Fox"
+            />
+            <div>
+              <h3>@Fox_Fram</h3>
+              <span>08 artículos</span>
+            </div>
+            <b>↗</b>
+          </a>
+
+          <a href="#explorar" class="creator">
+            <img
+              src="https://cms.googlycode.com/cms19/wp-content/uploads/2024/02/gl-img-03.jpg"
+              alt="Avatar Cools"
+            />
+            <div>
+              <h3>@Cools_55</h3>
+              <span>06 artículos</span>
+            </div>
+            <b>↗</b>
+          </a>
+
+          <a href="#explorar" class="creator">
+            <img
+              src="https://cms.googlycode.com/cms19/wp-content/uploads/2024/02/wa-01.jpg"
+              alt="Avatar Digita"
+            />
+            <div>
+              <h3>@Digita-22</h3>
+              <span>10 artículos</span>
+            </div>
+            <b>↗</b>
+          </a>
+
+          <a href="#explorar" class="creator">
+            <img
+              src="https://cms.googlycode.com/cms19/wp-content/uploads/2024/02/wa-02.jpg"
+              alt="Avatar Walk"
+            />
+            <div>
+              <h3>@Walk_at</h3>
+              <span>18 artículos</span>
+            </div>
+            <b>↗</b>
+          </a>
+
+          <a href="#explorar" class="creator">
+            <img
+              src="https://cms.googlycode.com/cms19/wp-content/uploads/2024/02/pa-01.jpg"
+              alt="Avatar Phor"
+            />
+            <div>
+              <h3>@Phor_art</h3>
+              <span>02 artículos</span>
+            </div>
+            <b>↗</b>
+          </a>
+        </div>
+      </section>
+
+      <!-- 4. Colecciones para explorar -->
+      <section class="section explore container" id="explorar">
+        <div class="section-heading">
+          <p class="eyebrow">ENCUENTRA TU FAVORITO</p>
+          <h2>Explora Nuestras Colecciones</h2>
+          <p>
+            Descubre fantásticas colecciones digitales creadas por talentosos
+            artistas de NFTs.
+          </p>
+        </div>
+
+        <div class="art-grid">
+          <!-- Primera colección -->
+          <article class="collection-card">
+            <div class="collage">
+              <div class="art-tile">
+                <img
+                  src="https://cms.googlycode.com/cms19/wp-content/uploads/2024/02/wa-01.jpg"
+                  alt="Escultura digital rosa"
+                />
+              </div>
+
+              <div class="art-tile">
+                <img
+                  src="https://cms.googlycode.com/cms19/wp-content/uploads/2024/02/wa-02.jpg"
+                  alt="Joven digital"
+                />
+              </div>
+
+              <div class="art-tile">
+                <img
+                  src="https://cms.googlycode.com/cms19/wp-content/uploads/2024/02/gl-img-01.jpg"
+                  alt="Gato con lentes"
+                />
+              </div>
+
+              <div class="art-tile">
+                <img
+                  src="https://cms.googlycode.com/cms19/wp-content/uploads/2024/02/gl-img-02.jpg"
+                  alt="Personaje con gafas"
+                />
+              </div>
+            </div>
+
+            <div class="collection-info">
+              <div>
+                <h3>@Walk_at</h3>
+                <p>06 artículos</p>
+              </div>
+              <span class="round-arrow">↗</span>
+            </div>
+          </article>
+
+          <!-- Segunda colección -->
+          <article class="collection-card">
+            <div class="collage">
+              <div class="art-tile">
+                <img
+                  src="https://cms.googlycode.com/cms19/wp-content/uploads/2024/02/pa-01.jpg"
+                  alt="Retrato futurista"
+                />
+              </div>
+
+              <div class="art-tile">
+                <img
+                  src="https://cms.googlycode.com/cms19/wp-content/uploads/2024/02/gl-img-03.jpg"
+                  alt="Arte de personaje"
+                />
+              </div>
+
+              <div class="art-tile">
+                <img
+                  src="https://cms.googlycode.com/cms19/wp-content/uploads/2024/02/wa-02.jpg"
+                  alt="Retrato moderno"
+                />
+              </div>
+
+              <div class="art-tile">
+                <img
+                  src="https://cms.googlycode.com/cms19/wp-content/uploads/2024/02/wa-01.jpg"
+                  alt="Escultura colorida"
+                />
+              </div>
+            </div>
+
+            <div class="collection-info">
+              <div>
+                <h3>@Phor_art</h3>
+                <p>08 artículos</p>
+              </div>
+              <span class="round-arrow">↗</span>
+            </div>
+          </article>
+
+          <!-- Tercera colección -->
+          <article class="collection-card">
+            <div class="collage">
+              <div class="art-tile">
+                <img
+                  src="https://cms.googlycode.com/cms19/wp-content/uploads/2024/02/do-img-01.jpg"
+                  alt="Mono con sudadera"
+                />
+              </div>
+
+              <div class="art-tile">
+                <img
+                  src="https://cms.googlycode.com/cms19/wp-content/uploads/2024/02/gl-img-01.jpg"
+                  alt="Gato rosa"
+                />
+              </div>
+
+              <div class="art-tile">
+                <img
+                  src="https://cms.googlycode.com/cms19/wp-content/uploads/2024/02/gl-img-03.jpg"
+                  alt="Personaje 3D"
+                />
+              </div>
+
+              <div class="art-tile">
+                <img
+                  src="https://cms.googlycode.com/cms19/wp-content/uploads/2024/02/pa-01.jpg"
+                  alt="Mujer futurista"
+                />
+              </div>
+            </div>
+
+            <div class="collection-info">
+              <div>
+                <h3>@Doodles_4</h3>
+                <p>04 artículos</p>
+              </div>
+              <span class="round-arrow">↗</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- 5. Sección del mapache -->
+      <section class="section about" id="mapache">
+        <div class="container about-inner">
+          <div class="about-copy">
+            <p class="eyebrow">DESCUBRE ALGO NUEVO</p>
+
+            <h2>
+              Descubre, colecciona y vende
+              <span>NFTs extraordinarios</span>
+            </h2>
+
+            <p>
+              El mundo del arte digital está lleno de oportunidades para
+              descubrir nuevas creaciones y apoyar a artistas de diferentes
+              partes del mundo.
+            </p>
+
+            <p>
+              Explora obras creativas, conoce artistas inspiradores y construye
+              tu propia colección digital única.
+            </p>
+
+            <a href="#explorar" class="btn"> Leer más <span>↗</span> </a>
+          </div>
+
+          <div class="raccoon-display">
+            <div class="raccoon-halo"></div>
+
+            <span class="raccoon-spark left">✦</span>
+
+            <img
+              class="raccoon"
+              src="https://cms.googlycode.com/cms19/wp-content/uploads/2024/02/about-us-img-01.png"
+              alt="Mapache artístico con gafas negras y chaqueta"
+            />
+
+            <span class="raccoon-spark right">✧</span>
+
+            <div class="raccoon-caption">ARTE <strong>CREATIVO</strong></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      Práctica académica de transiciones · HTML + CSS ·
+      <a href="#inicio">Volver arriba ↑</a>
+    </footer>
+  </body>
+</html>
